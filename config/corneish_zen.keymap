@@ -60,7 +60,7 @@
             bindings = <
 &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_COLOR_HSB(285,75,56)  &trans            &rgb_ug RGB_OFF      &trans     &trans    &kp UP_ARROW  &trans     &trans  &kp DELETE
 &trans           &trans           &trans           &trans                            &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &trans     &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2                      &trans            &trans               &trans     &trans    &trans        &trans     &trans  &kp ENTER
+&bt BT_CLR       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2                      &bt BT_SEL 3      &trans               &trans     &trans    &trans        &trans     &trans  &kp ENTER
                                                    &kp LEFT_WIN                      &kp LEFT_SHIFT    &kp SPACE            &kp SPACE  &none     &trans
             >;
         };
